@@ -1,9 +1,6 @@
 precision mediump float;
-uniform vec2 u_resolution,u_mouse;
 uniform float u_time;
 void main(){
-vec2 m=(u_mouse*2.-u_resolution)/u_resolution.y;
-vec2 u=(gl_FragCoord.xy*2.-u_resolution)/u_resolution.y-m*.5;
 float t=u_time,a=atan(u.y,u.x)+t*.2,r=length(u);
 vec3 c=.5+.5*cos(t+6.28*(vec3(0,.33,.67)+a/6.28+.3/r+t*.1));
 float s=.5+.5*sin(12.*a+5./r-t*3.);
