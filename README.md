@@ -1,3 +1,6 @@
 # IG-Shader
 
-Este shader se trata de un túnel psicodélico
+Este shader está inspirado en un túnel psicodélico.
+
+**Visualización**
+
